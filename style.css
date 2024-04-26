@@ -4,18 +4,37 @@
     box-sizing: border-box;
 }
 
+body {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
 #personajes {
-    /* Complete el CSS aqui */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    gap: 1rem;
+    max-width: 800px;
+    margin-top: 2rem; 
 }
 
 .personaje {
-/* Complete el CSS aqui */
+    margin-bottom: 1rem;
+    border: 1px solid black;
+    text-align: center;
 }
 
 .personaje__nombre {
-/* Complete el CSS aqui */
+    margin-top: 5px;
+    font-size: 16px;
+    color: green;
 }
 
 .personaje__imagen {
-/* Complete el CSS aqui */
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
 }
